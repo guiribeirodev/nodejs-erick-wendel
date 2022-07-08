@@ -42,8 +42,8 @@ class PostgreSQLStrategy extends IDb {
   _connect() {
     this._sequelize = new Sequelize(
       'herois', //database
-      'erickwendel', // user
-      'minhasenhasecreta', //senha
+      'guiribeiro', // user
+      'senhasecreta', //senha
       {
         host: 'localhost',
         dialect: 'postgres',

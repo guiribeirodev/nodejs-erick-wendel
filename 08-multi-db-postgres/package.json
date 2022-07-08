@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -w *.test.js"
+    "test": "mocha *.test.js"
   },
-  "author": "erickwendel",
+  "author": "guiribeirodev",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^5.2.0"

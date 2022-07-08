@@ -5,7 +5,7 @@ const MOCK_HEROI_CADASTRAR = { nome: 'Gaviao Negro', poder: 'flexas' };
 const MOCK_HEROI_ATUALIZAR = { nome: 'Mulher Gavião', poder: 'grito' };
 
 const context = new Context(new PostgresStrategy());
-describe('PostgreSQL Strategy', function() {
+describe('PostgreSQL Strategy', function () {
   this.timeout(Infinity);
   before(async () => {
     await context.delete();
